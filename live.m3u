@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1,----------------------EMI539 - BETA TESTING---------------
-http://www.google.com
-#EXTINF:-1,TV KLAN - JO HD
-http://91.205.173.193:8081/live/klan1/playlist.m3u8
-#EXTINF:-1,TOP CHANNEL - JO HD
-http://91.205.173.193:8081/live/top1/playlist.m3u8
