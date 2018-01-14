@@ -9,7 +9,7 @@ $(function (){
   success: function(kanalet) {
     console.log("Tabela:", kanalet);
 	$.each(kanalet, function(i, kanal) {
-	$kanalet.append('<a href="intent:'+ kanal.linku +'#Intent;package=co.wuffy.player;end"><div class="card"><h3 class="card-header">'+ kanal.kanali +'</h3><div class="card-block"><img src="'+ kanal.logo +'"></img><h4 class="card-title">description</h4><a href="" class="btn btn-primary">Shiko</a></div></div></a>');	
+	$kanalet.append('<a href="intent:'+ kanal.linku +'#Intent;package=co.wuffy.player;end"><div class="card"><h3 class="card-header">'+ kanal.kanali +'</h3><div class="card-block"><img src="'+ kanal.logo +'"></img><h4 class="card-title">description</h4><a href="intent:'+ kanal.linku +'#Intent;package=co.wuffy.player;end" class="btn btn-primary">Shiko</a></div></div></a>');	
 	});
 	},
   	error: function() {
